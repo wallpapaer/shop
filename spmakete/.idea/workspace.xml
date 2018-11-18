@@ -1,19 +1,306 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="59ed1fee-fabf-4a56-b241-17b8bd787177" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/111" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/address.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/allorder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/application.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/applicationjob.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/assets/iconfont/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/assets/iconfont/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/assets/iconfont/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/assets/iconfont/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/boundphone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/city.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/collect-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/collect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/css/amazeui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/css/ch.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/css/check.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/fonts/_notes/dwsync.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/forgetpassword.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/gladdress.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/1-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/1-icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/1-icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/1-icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/1-icon4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/1-icon5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/1-icon6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/1-icon7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/2-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/2icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/2icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/2icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/3icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/3icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/3icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/IMG_3574_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/banner1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/bj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/bm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/brand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/candar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/care.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/city.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/contactqq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/contacttele.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/dui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/ewm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/game.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/gift.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/gqhb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/grayxin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/guoqi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/gz1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/gz2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/gz3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/herat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/hotline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/icon4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/icon5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/icon6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/icon7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/icon8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/infortx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/j_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/j_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/j_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/jp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/ka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/lz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/m_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/m_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/m_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/m_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/m_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/m_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/m_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/m_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/memtx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/moneysafty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/moneytele.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/my.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/order-bot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/order-my.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/order-pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/order-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/order.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/ph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/qd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/qiandao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/qqlogin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/redherat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/redxin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/s2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/s3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/s4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/s5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/s6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/sao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/shop1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/shop2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/shop3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/shop4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/shopcart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/sign-up-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/sinalog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/skongjian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/sqq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/ssina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/step.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/sweixin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/sweixinfriend.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/tele.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/test.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/test1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/test10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/test11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/test2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/test21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/test3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/test4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/test5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/test6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/test7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/test8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/test9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/tit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/tj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/ts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/tt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/tx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/tx1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/update.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/volume.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/wei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/weichong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/wl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/wxlogin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/ye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/yhq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/yzm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/zhi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/infor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/integral.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/integralexchange.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/integralrecords.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/job.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/js/amazeui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/js/area.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/js/date.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/js/iscroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/js/jquery-1.10.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/js/jquery.mobile-1.4.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/js/popup.mini.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/js/time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/member.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/message.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/messdetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/messdetailactive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/money.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/mymessage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/myrecommend.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/news.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/newsdetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/orderdetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/pay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/payment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/recharge.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/recommend.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/records.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/reg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/release.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/saftystep.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/shopcart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/speed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/step.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/tidings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/tureorder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/village.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/ygq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Supermarket/yhq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spmakete/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="698" />
-    <option name="y" value="52" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="381" />
+    <option name="y" value="67" />
     <option name="width" value="1155" />
     <option name="height" value="950" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spmakete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spmakete" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spmakete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spmakete" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Django_xm\pro\shop\spmakete\templates" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="spmakete" type="Python.DjangoServer" factoryName="Django server">
@@ -39,8 +326,74 @@
       <option name="customRunCommand" value="" />
     </configuration>
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59ed1fee-fabf-4a56-b241-17b8bd787177" name="Default" comment="" />
+      <created>1542528704138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542528704138</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="381" y="67" width="1155" height="950" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25205478" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/spmakete/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Supermarket/js/area.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spmakete/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
