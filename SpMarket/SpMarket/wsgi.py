@@ -1,5 +1,5 @@
 """
-WSGI config for Supermarket project.
+WSGI config for SpMarket project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "Supermarket.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "SpMarket.settings")
 
 application = get_wsgi_application()
