@@ -2,792 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="568c85ba-3dd7-4ee0-a3ec-2a598c840696" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/sp_cart/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/sp_goods/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/sp_order/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/sp_user/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/sp_user/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/iconfont/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/iconfont/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/iconfont/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/iconfont/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/amazeui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/ch.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/check.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/_notes/dwsync.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/1-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/1-icon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/1-icon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/1-icon3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/1-icon4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/1-icon5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/1-icon6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/1-icon7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/2-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/2icon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/2icon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/2icon3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/3icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/3icon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/3icon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/IMG_3574_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/banner1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/bj.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/bm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/brand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/candar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/care.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/city.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/contactqq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/contacttele.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/dui.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/ewm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/game.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/gift.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/gqhb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/grayxin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/guoqi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/gz1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/gz2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/gz3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/herat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/hotline.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/icon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/icon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/icon3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/icon4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/icon5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/icon6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/icon7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/icon8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/infortx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/j_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/j_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/j_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/jp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/ka.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/lz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/m_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/m_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/m_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/m_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/m_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/m_07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/m_08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/m_09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/memtx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/moneysafty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/moneytele.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/my.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/order-bot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/order-my.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/order-pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/order-top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/order.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/ph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/qd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/qiandao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/qqlogin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/redherat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/redxin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/s1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/s2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/s3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/s4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/s5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/s6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/shop1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/shop2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/shop3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/shop4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/shopcart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sign-up-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sinalog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/skongjian.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sqq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/ssina.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/step.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sweixin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sweixinfriend.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/tele.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/test.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/test.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/test1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/test10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/test11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/test2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/test21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/test3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/test4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/test5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/test6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/test7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/test8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/test9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/tit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/tj.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/ts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/tt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/tx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/tx1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/update.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/volume.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/wei.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/weichong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/wl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/wxlogin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/ye.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/yhq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/yzm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/zhi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/amazeui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/area.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/date.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/iscroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery-1.10.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery.mobile-1.4.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/popup.mini.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/111" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/address.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/allorder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/application.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/applicationjob.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/assets/iconfont/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/assets/iconfont/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/assets/iconfont/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/assets/iconfont/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/boundphone.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/category.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/city.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/collect-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/collect.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/css/amazeui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/css/ch.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/css/check.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/fonts/_notes/dwsync.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/forgetpassword.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/gladdress.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/1-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/1-icon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/1-icon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/1-icon3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/1-icon4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/1-icon5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/1-icon6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/1-icon7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/2-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/2icon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/2icon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/2icon3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/3icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/3icon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/3icon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/IMG_3574_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/banner1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/bj.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/bm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/brand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/candar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/care.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/city.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/contactqq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/contacttele.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/dui.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/ewm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/game.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/gift.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/gqhb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/grayxin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/guoqi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/gz1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/gz2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/gz3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/herat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/hotline.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/icon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/icon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/icon3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/icon4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/icon5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/icon6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/icon7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/icon8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/infortx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/j_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/j_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/j_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/jp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/ka.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/lz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/m_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/m_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/m_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/m_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/m_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/m_07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/m_08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/m_09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/memtx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/moneysafty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/moneytele.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/my.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/order-bot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/order-my.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/order-pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/order-top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/order.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/ph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/qd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/qiandao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/qqlogin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/redherat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/redxin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/s1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/s2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/s3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/s4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/s5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/s6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/sao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/shop1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/shop2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/shop3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/shop4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/shopcart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/sign-up-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/sinalog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/skongjian.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/sqq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/ssina.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/step.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/sweixin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/sweixinfriend.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/tele.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/test.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/test.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/test1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/test10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/test11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/test2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/test21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/test3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/test4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/test5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/test6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/test7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/test8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/test9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/tit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/tj.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/ts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/tt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/tx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/tx1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/update.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/volume.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/wei.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/weichong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/wl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/wxlogin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/ye.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/yhq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/yzm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/images/zhi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/infor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/integral.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/integralexchange.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/integralrecords.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/job.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/js/amazeui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/js/area.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/js/date.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/js/iscroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/js/jquery-1.10.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/js/jquery.mobile-1.4.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/js/popup.mini.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/js/time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/member.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/message.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/messdetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/messdetailactive.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/money.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/mymessage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/myrecommend.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/news.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/newsdetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/orderdetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/pay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/payment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/recharge.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/recommend.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/records.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/reg.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/release.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/saftystep.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/shopcart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/speed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/step.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/tidings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/tureorder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/village.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/ygq.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Supermarket/yhq.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/public/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sp_user/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sp_user/member.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sp_user/reg.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SpMarket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SpMarket.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/sp_user/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/sp_user/helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/sp_user/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/sp_user/migrations/0002_users_apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/sp_user/migrations/0003_remove_users_apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/sp_user/migrations/0004_auto_20181120_1700.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/sp_user/migrations/0005_auto_20181120_1700.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/base_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my.cnf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/sp_user/forgetpassword.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/sp_user/infor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpMarket/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SpMarket/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpMarket/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SpMarket/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/.idea/dictionaries/.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/.idea/spmakete.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/apps/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/apps/home/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/apps/home/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/apps/home/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/apps/home/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/sp_cart/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/apps/home/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/apps/home/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/apps/home/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/apps/home/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/apps/user/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/sp_goods/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/apps/user/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/apps/user/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/apps/user/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/apps/user/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/apps/user/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/sp_order/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/apps/user/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/apps/user/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/apps/user/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/apps/user/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/my.cnf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/spmakete/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/spmakete/my.cnf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/spmakete/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/spmakete/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/spmakete/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/assets/iconfont/iconfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/assets/iconfont/iconfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/assets/iconfont/iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/assets/iconfont/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/css/amazeui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/css/ch.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/css/check.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/fonts/_notes/dwsync.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/1-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/1-icon1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/1-icon2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/1-icon3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/1-icon4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/1-icon5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/1-icon6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/1-icon7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/2-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/2icon1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/2icon2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/2icon3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/3icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/3icon1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/3icon2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/IMG_3574_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/add.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/banner1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/bj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/bm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/brand.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/candar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/care.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/city.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/contactqq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/contacttele.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/dui.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/ewm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/game.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/gift.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/gqhb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/grayxin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/guoqi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/gz1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/gz2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/gz3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/herat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/hotline.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/icon1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/icon2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/icon3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/icon4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/icon5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/icon6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/icon7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/icon8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/infortx.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/j_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/j_06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/j_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/jp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/ka.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/lz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/m_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/m_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/m_04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/m_05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/m_06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/m_07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/m_08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/m_09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/memtx.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/moneysafty.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/moneytele.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/my.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/order-bot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/order-my.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/order-pic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/order-top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/order.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/ph.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/pic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/qd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/qiandao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/qqlogin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/redherat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/redxin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/s1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/s2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/s3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/s4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/s5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/s6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/sao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/shop1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/shop2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/shop3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/shop4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/shopcart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/sign-up-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/sinalog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/skongjian.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/sqq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/ssina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/step.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/sweixin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/sweixinfriend.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/tele.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/test.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/test.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/test1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/test10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/test11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/test2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/test21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/test3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/test4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/test5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/test6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/test7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/test8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/test9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/tit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/tj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/ts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/tt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/tx.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/tx1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/update.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/volume.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/wei.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/weichong.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/wl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/wxlogin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/ye.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/yhq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/yzm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/images/zhi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/js/amazeui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/js/area.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/js/date.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/js/iscroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/js/jquery-1.10.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/js/jquery.mobile-1.4.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/js/popup.mini.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/static/js/time.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/111" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/address.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/allorder.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/application.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/applicationjob.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/assets/iconfont/iconfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/assets/iconfont/iconfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/assets/iconfont/iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/assets/iconfont/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/boundphone.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/category.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/city.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/collect-edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/collect.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/css/amazeui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/css/ch.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/css/check.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/fonts/_notes/dwsync.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/forgetpassword.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/gladdress.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/1-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/1-icon1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/1-icon2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/1-icon3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/1-icon4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/1-icon5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/1-icon6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/1-icon7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/2-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/2icon1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/2icon2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/2icon3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/3icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/3icon1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/3icon2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/IMG_3574_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/add.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/banner1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/bj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/bm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/brand.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/candar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/care.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/city.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/contactqq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/contacttele.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/dui.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/ewm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/game.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/gift.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/gqhb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/grayxin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/guoqi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/gz1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/gz2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/gz3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/herat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/hotline.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/icon1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/icon2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/icon3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/icon4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/icon5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/icon6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/icon7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/icon8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/infortx.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/j_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/j_06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/j_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/jp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/ka.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/lz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/m_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/m_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/m_04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/m_05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/m_06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/m_07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/m_08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/m_09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/memtx.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/moneysafty.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/moneytele.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/my.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/order-bot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/order-my.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/order-pic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/order-top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/order.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/ph.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/pic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/qd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/qiandao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/qqlogin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/redherat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/redxin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/s1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/s2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/s3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/s4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/s5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/s6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/sao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/shop1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/shop2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/shop3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/shop4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/shopcart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/sign-up-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/sinalog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/skongjian.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/sqq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/ssina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/step.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/sweixin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/sweixinfriend.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/tele.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/test.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/test.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/test1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/test10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/test11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/test2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/test21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/test3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/test4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/test5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/test6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/test7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/test8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/test9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/tit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/tj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/ts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/tt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/tx.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/tx1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/update.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/volume.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/wei.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/weichong.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/wl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/wxlogin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/ye.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/yhq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/yzm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/images/zhi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/infor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/integral.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/integralexchange.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/integralrecords.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/job.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/js/amazeui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/js/area.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/js/date.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/js/iscroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/js/jquery-1.10.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/js/jquery.mobile-1.4.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/js/popup.mini.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/js/time.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/member.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/message.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/messdetail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/messdetailactive.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/money.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/mymessage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/myrecommend.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/news.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/newsdetail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/order.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/orderdetail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/password.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/pay.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/payment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/recharge.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/recommend.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/records.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/reg.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/release.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/saftystep.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/shopcart.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/speed.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/step.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/tidings.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/tureorder.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/village.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/ygq.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/Supermarket/yhq.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/home/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/user/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/user/member.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spmakete/templates/user/reg.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/sp_user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/sp_user/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/sp_user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/sp_user/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/sp_user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/sp_user/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/public/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/public/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sp_user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sp_user/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sp_user/member.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sp_user/member.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sp_user/reg.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sp_user/reg.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -796,68 +35,63 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/public/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apps/sp_user/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="47" column="4" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="member.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/sp_user/member.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-              <folding>
-                <element signature="n#header#0;n#!!top" />
-                <element signature="n#h1#0;n#header#0;n#!!top" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#!!top" />
-                <element signature="n#div#2;n#!!top" />
-                <element signature="n#ul#0;n#!!top" />
-                <element signature="n#div#3;n#!!top" />
-                <element signature="n#ul#0;n#div#5;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/sp_user/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+            <state relative-caret-position="233">
+              <caret line="69" column="9" lean-forward="true" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#0#54#0" expanded="true" />
+                <element signature="e#430#1509#0" />
+                <element signature="e#2240#2367#0" />
+                <element signature="e#2413#2583#0" />
+                <element signature="e#2622#3002#0" />
+                <element signature="e#3049#3915#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/sp_user/urls.py">
+      <file leaf-file-name="reg.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/sp_user/reg.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="23">
+              <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -867,10 +101,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>STATICFILES_DIRS</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -879,15 +118,23 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/apps/sp_cart/views.py" />
-        <option value="$PROJECT_DIR$/SpMarket/settings.py" />
         <option value="$PROJECT_DIR$/apps/sp_cart/urls.py" />
         <option value="$PROJECT_DIR$/SpMarket/urls.py" />
-        <option value="$PROJECT_DIR$/templates/sp_user/login.html" />
-        <option value="$PROJECT_DIR$/templates/public/base.html" />
-        <option value="$PROJECT_DIR$/templates/sp_user/member.html" />
-        <option value="$PROJECT_DIR$/apps/sp_user/views.py" />
         <option value="$PROJECT_DIR$/apps/sp_user/urls.py" />
+        <option value="$PROJECT_DIR$/templates/sp_user/forgetpassword.html" />
         <option value="$PROJECT_DIR$/apps/sp_user/models.py" />
+        <option value="$PROJECT_DIR$/apps/sp_user/migrations/0005_auto_20181120_1700.py" />
+        <option value="F:/雷智杰7.3学习/课件/历史/后续/2018-08-16-Django用户收货地址/code/SpMarket/apps/sp_user/helper.py" />
+        <option value="$PROJECT_DIR$/templates/sp_user/member.html" />
+        <option value="$PROJECT_DIR$/templates/sp_user/login.html" />
+        <option value="$PROJECT_DIR$/apps/sp_user/forms.py" />
+        <option value="$PROJECT_DIR$/templates/sp_user/infor.html" />
+        <option value="$PROJECT_DIR$/apps/sp_user/helper.py" />
+        <option value="$PROJECT_DIR$/SpMarket/settings.py" />
+        <option value="$PROJECT_DIR$/db/base_model.py" />
+        <option value="$PROJECT_DIR$/templates/public/base.html" />
+        <option value="$PROJECT_DIR$/apps/sp_user/views.py" />
+        <option value="$PROJECT_DIR$/templates/sp_user/reg.html" />
       </list>
     </option>
   </component>
@@ -901,8 +148,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="502" />
-    <option name="y" value="8" />
+    <option name="x" value="632" />
+    <option name="y" value="49" />
     <option name="width" value="1155" />
     <option name="height" value="985" />
   </component>
@@ -912,7 +159,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -920,45 +166,21 @@
               <item name="SpMarket" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpMarket" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SpMarket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpMarket" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpMarket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpMarket" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="sp_user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpMarket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpMarket" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpMarket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpMarket" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpMarket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpMarket" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="sp_user" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -966,11 +188,11 @@
       <recent name="F:\Django_xm\pro1\shop\SpMarket\apps" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Django_xm\pro1\shop\SpMarket" />
+      <recent name="F:\Django_xm\pro1\shop\SpMarket\templates\sp_user" />
       <recent name="F:\Django_xm\pro1\shop\SpMarket\templates" />
       <recent name="F:\Django_xm\pro1\shop\SpMarket\apps\sp_cart" />
       <recent name="F:\Django_xm\pro1\shop\SpMarket\apps\sp_goods" />
-      <recent name="F:\Django_xm\pro1\shop\SpMarket\apps\sp_order" />
-      <recent name="F:\Django_xm\pro1\shop\SpMarket" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1000,7 +222,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
+      <option name="port" value="8002" />
       <option name="host" value="" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
@@ -1032,31 +254,57 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="502" y="8" width="1155" height="985" extended-state="0" />
+    <frame x="632" y="49" width="1155" height="985" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32885087" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32925338" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3179669" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24931507" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="manage.py@SpMarket" weight="0.32925338" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="SciView" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50045663" side_tool="true" weight="0.3286052" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32925338" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3463357" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32978722" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2675799" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" weight="0.19086757" />
+      <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39834514" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="manage.py@SpMarket" order="7" sideWeight="0.49954337" weight="0.59101653" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.3031625" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25388128" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="manage.py@SpMarket" order="10" sideWeight="0.49954337" weight="0.65976006" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.3179669" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32942432" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.32978722" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50045663" side_tool="true" weight="0.3286052" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32925338" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.3293348" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Python Console" order="11" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1068,154 +316,389 @@
     <MESSAGE value="创建超市项目" />
     <option name="LAST_COMMIT_MESSAGE" value="创建超市项目" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="23" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/js/area.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../pro/spmakete1/spmakete/settings.py">
+    <entry file="file://$PROJECT_DIR$/my.cnf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="127" column="23" lean-forward="true" selection-start-line="127" selection-start-column="23" selection-end-line="127" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/sp_cart/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/sp_cart/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpMarket/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-          <folding>
-            <element signature="e#310#319#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/sp_order/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/sp_goods/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/sp_cart/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/sp_cart/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="30">
+          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SpMarket/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="510">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Supermarket/js/area.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/apps/sp_user/migrations/0002_auto_20181120_1535.py" />
+    <entry file="file://F:/雷智杰7.3学习/课件/1120/supermarket/SpMarket/apps/sp_user/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-793" />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sp_user/reg.html">
+    <entry file="file://F:/雷智杰7.3学习/课件/1120/supermarket/SpMarket/apps/sp_user/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="50" column="45" lean-forward="true" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/雷智杰7.3学习/课件/1120/supermarket/SpMarket/apps/sp_user/helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../todolist/templates/web_pages/todo_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/virtual/django11/Lib/site-packages/django/shortcuts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/sp_user/migrations/0005_auto_20181120_1700.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/sp_user/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-990" />
+      </provider>
+    </entry>
+    <entry file="file://F:/雷智杰7.3学习/课件/1120/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="76" column="9" lean-forward="true" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/雷智杰7.3学习/课件/历史/后续/2018-08-16-Django用户收货地址/code/SpMarket/apps/sp_user/helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/雷智杰7.3学习/课件/1120/supermarket/SpMarket/apps/sp_user/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/雷智杰7.3学习/课件/1120/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/雷智杰7.3学习/课件/1120/supermarket/SpMarket/templates/public/base.html">
+    <entry file="file://F:/virtual/django11/Lib/site-packages/django/core/handlers/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+        <state relative-caret-position="356">
+          <caret line="197" selection-start-line="197" selection-end-line="197" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/block.rnc">
+    <entry file="file://F:/virtual/django11/Lib/site-packages/django/core/handlers/exception.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="244" column="16" selection-start-line="244" selection-start-column="16" selection-end-line="244" selection-end-column="16" />
+        <state relative-caret-position="176">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sp_user/login.html">
+    <entry file="file://F:/雷智杰7.3学习/课件/历史/后续/2018-08-16-Django用户收货地址/code/SpMarket/apps/sp_user/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="68" column="25" selection-start-line="49" selection-end-line="69" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sp_user/member.html">
+    <entry file="file://F:/雷智杰7.3学习/课件/历史/后续/2018-08-16-Django用户收货地址/code/SpMarket/apps/sp_user/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="115" column="28" lean-forward="true" selection-start-line="115" selection-start-column="28" selection-end-line="115" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/雷智杰7.3学习/课件/1120/supermarket/SpMarket/templates/sp_user/member.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1050">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/雷智杰7.3学习/课件/历史/后续/2018-08-17-Django生成订单-搜索/code/SpMarket/apps/sp_user/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding>
-            <element signature="n#header#0;n#!!top" />
-            <element signature="n#h1#0;n#header#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#!!top" />
-            <element signature="n#div#2;n#!!top" />
-            <element signature="n#ul#0;n#!!top" />
-            <element signature="n#div#3;n#!!top" />
-            <element signature="n#ul#0;n#div#5;n#!!top" />
-          </folding>
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/雷智杰7.3学习/课件/历史/后续/2018-08-17-Django生成订单-搜索/code/SpMarket/apps/sp_user/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/sp_user/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        <state relative-caret-position="360">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/sp_user/views.py">
+    <entry file="file://F:/雷智杰7.3学习/课件/历史/后续/2018-08-17-Django生成订单-搜索/code/SpMarket/apps/sp_user/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-794">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../pro/SpMarket1/apps/sp_user/models.py">
+    <entry file="file://F:/雷智杰7.3学习/课件/1120/sp_user/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="47" column="25" lean-forward="true" selection-start-line="4" selection-end-line="47" selection-end-column="25" />
+        <state relative-caret-position="276">
+          <caret line="88" column="33" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/public/base.html">
+    <entry file="file://F:/雷智杰7.3学习/课件/1120/sp_user/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/雷智杰7.3学习/课件/1120/sp_user/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sp_user/forgetpassword.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/sp_user/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="47" column="4" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+        <state relative-caret-position="-240">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/雷智杰7.3学习/课件/历史/后续/2018-08-17-Django生成订单-搜索/code/SpMarket/templates/sp_user/member.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4034">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/雷智杰7.3学习/课件/1120/sp_user/helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/雷智杰7.3学习/课件/1120/supermarket/SpMarket/Supermarket/infor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/雷智杰7.3学习/课件/历史/后续/2018-08-17-Django生成订单-搜索/code/SpMarket/templates/sp_user/infor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d2b33ded-0d73-4e9e-ab02-c3b17ae41c70/schema/main/table/sp_users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sp_user/infor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/雷智杰7.3学习/课件/1121验证码问题/const.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d2b33ded-0d73-4e9e-ab02-c3b17ae41c70/schema/main/table/django_session">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dysms_python/demo_sms_send.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="68" column="25" lean-forward="true" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/2110758012/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="5246" column="8" selection-start-line="5246" selection-start-column="8" selection-end-line="5246" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/sp_user/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dysms_python/const.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/sp_user/helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpMarket/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="143" column="31" lean-forward="true" selection-start-line="143" selection-start-column="31" selection-end-line="143" selection-end-column="31" />
+          <folding>
+            <element signature="e#310#319#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sp_user/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sp_user/member.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/base_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/public/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/雷智杰7.3学习/课件/历史/后续/2018-08-17-Django生成订单-搜索/code/SpMarket/apps/sp_user/helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/雷智杰7.3学习/课件/历史/后续/2018-08-17-Django生成订单-搜索/code/SpMarket/apps/sp_user/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="e#1243#2427#0" />
+            <element signature="e#2430#2436#0" />
+            <element signature="e#2492#2537#0" />
+            <element signature="e#2598#2890#0" />
+            <element signature="e#2938#3799#0" />
+            <element signature="e#3828#4765#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/雷智杰7.3学习/课件/历史/后续/2018-08-17-Django生成订单-搜索/code/SpMarket/apps/sp_user/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1682">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <element signature="e#3073#4263#0" />
+            <element signature="e#4318#5264#0" />
+            <element signature="e#5307#5690#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sp_user/reg.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/sp_user/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="69" column="9" lean-forward="true" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+            <element signature="e#430#1509#0" />
+            <element signature="e#2240#2367#0" />
+            <element signature="e#2413#2583#0" />
+            <element signature="e#2622#3002#0" />
+            <element signature="e#3049#3915#0" />
+          </folding>
         </state>
       </provider>
     </entry>

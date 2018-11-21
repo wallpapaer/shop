@@ -13,7 +13,6 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 import os
 import sys
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-from django.conf.global_settings import STATICFILES_DIRS
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # 将APP假如到包路径查找
@@ -82,6 +81,11 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        # 'ENGINE': 'django.db.backends.mysql',
+        # 'OPTIONS': {
+        #     'read_default_file': os.path.join(BASE_DIR, "my.cnf"),  # 从文件中读取连接信息
+        # },
+
     }
 }
 
@@ -120,6 +124,22 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static')  # 设置url,方便在模块中使用静态文件
+    os.path.join(BASE_DIR, 'static'),  # 设置url,方便在模块中使用静态文件
 ]
+
+#添加redis
+CACHES = {
+        "default": {
+            "BACKEND": "django_redis.cache.RedisCache",
+            "LOCATION": "redis://127.0.0.1:6379/1",
+            "OPTIONS": {
+                "CLIENT_CLASS": "django_redis.client.DefaultClient",
+            }
+        }
+    }
+
+SESSION_ENGINE = "django.contrib.sessions.backends.cache"
+SESSION_CACHE_ALIAS = "default"
+URL_LOGIN = "/user/login/"

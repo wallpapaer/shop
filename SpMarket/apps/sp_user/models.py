@@ -1,8 +1,10 @@
 from django.db import models
 
 # Create your models here.
+from db.base_model import BaseModel
 
-class Users(models.Model):
+
+class Users(BaseModel):
     sex_choices = (
         (1, '男'),
         (2, "女"),
@@ -41,6 +43,7 @@ class Users(models.Model):
                                 null=True, blank=True,
                                 )
     class Meta:
+        db_table = "sp_users"
         verbose_name = '用户管理'
         verbose_name_plural = verbose_name
 
