@@ -1,0 +1,1 @@
+var userCookie={dnk:'',_nk_:'',_l_g_:'',ck1:'',tracknick:'\u574F\u574F\u7684\u604B\u5979',mt:'ci=-1_0',l:'',uc1:'cookie14=UoTYNcubCai11w==',t:'38d6845f7557852a097d786f0c04b09e',unb:'',cna:'qeJeE jvwgsCAavTFDQ pJSn',_tb_token_:'3587e61b8a59e',version:'4.0.0'};window.TB && TB.Global && TB.Global.run && TB.Global.run();

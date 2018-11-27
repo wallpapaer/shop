@@ -12,15 +12,17 @@
         </h1>
     </header>
     <div style="height: 49px;"></div>
-    <form action="" method="post">
+    <form action="" method="post" enctype="multipart/form-data">
         {% csrf_token %}
         <ul class="safty1">
             <li>
                 <a href="">
                     <i style="margin-top: 25px;">头像</i>
                     <div class="infor-pic">
-                         <img src="{% static 'images/infortx.png' %}"/>
+                         <img src="{% static 'images/m_02.png' %}"/>
+
                     </div>
+                    <input type="file" name="head">
                 </a>
             </li>
             <li>

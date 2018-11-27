@@ -3,7 +3,8 @@ from django import forms
 from sp_user.helper import set_password
 from sp_user.models import Users
 
-#注册
+
+# 注册
 class RegisterModelForm(forms.ModelForm):
     password1 = forms.CharField(max_length=16,
                                 min_length=6,
@@ -49,7 +50,7 @@ class RegisterModelForm(forms.ModelForm):
         return phone
 
 
-#登录
+# 登录
 class LoginForm(forms.ModelForm):
     class Meta:
         model = Users
@@ -67,8 +68,9 @@ class LoginForm(forms.ModelForm):
 
     widgets = {
         'phone': forms.TextInput(attrs={'class': 'login-name', 'placeholder': '请输入手机号'}),
-        'password':forms.PasswordInput(attrs={'class':'login-password','placeholder':'请输入密码'}),
+        'password': forms.PasswordInput(attrs={'class': 'login-password', 'placeholder': '请输入密码'}),
     }
+
     def clean(self):
         cleaned_data = self.cleaned_data
         # 获取数据
@@ -90,13 +92,14 @@ class LoginForm(forms.ModelForm):
         else:
             return cleaned_data
 
-#修改
+
+# 修改
 class UserChangeModelForm(forms.ModelForm):
     class Meta:
         model = Users
-        #排除不用的字段
-        exclude = ['create_time,','update_time','is_delete','password']
-        #修改的样式
+        # 排除不用的字段
+        exclude = ['create_time,', 'update_time', 'is_delete', 'password']
+        # 修改的样式
         widgets = {
             "nickname": forms.TextInput(attrs={'class': "infor-tele", "placeholder": "请填写昵称"}),
             "gender": forms.RadioSelect(),
@@ -106,5 +109,6 @@ class UserChangeModelForm(forms.ModelForm):
             "hometown": forms.TextInput(attrs={'class': "infor-tele", "placeholder": "请输入老家"}),
             "phone": forms.TextInput(attrs={'class': "infor-tele", "placeholder": "请输入手机号"}),
         }
+
     def validate_unique(self):
         pass

@@ -16,10 +16,14 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.contrib import admin
 
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^user/', include('sp_user.urls',namespace='sp_user')),#用户主页
     url(r'^goods/', include('sp_goods.urls',namespace='sp_goods')),#用户主页
     url(r'^cart/', include('sp_cart.urls',namespace='sp_cart')),#用户主页
     url(r'^order/', include('sp_order.urls',namespace='sp_order')),#用户主页
+    url(r'^ckeditor/', include('ckeditor_uploader.urls')),#在主路由中配置 ckeditor 上传文件使用到的url地址
+#全文搜索框架
+    url(r'^search/', include('haystack.urls')),
 ]

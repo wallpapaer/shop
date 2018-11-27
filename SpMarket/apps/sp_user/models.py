@@ -42,6 +42,7 @@ class Users(BaseModel):
                                 max_length=100,
                                 null=True, blank=True,
                                 )
+    head = models.ImageField(upload_to='head/%Y%m/',default='head/memtx.png',verbose_name='用户头像')
     class Meta:
         db_table = "sp_users"
         verbose_name = '用户管理'
