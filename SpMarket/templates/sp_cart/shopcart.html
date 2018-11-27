@@ -1,128 +1,194 @@
 {% extends 'public/base.html' %}
 {% load static %}
 {% block body %}
-		<header data-am-widget="header" class="am-header am-header-default sq-head ">
-			<div class="am-header-left am-header-nav">
-				<a href="javascript:history.back()" class="">
-					<i class="am-icon-chevron-left"></i>
-				</a>
-			</div>
-			<h1 class="am-header-title">
-  	            <a href="" class="">购物车</a>
-            </h1>
-	    </header>
-	    <div style="height: 49px;"></div>
-	    <!--购物车空的状态-->
-	    <div class="login-logo" style="display: {% if goodssku %}
-            none
-            {% else %}
-            block
-	    {% endif %}">
-	    	<img src="{% static 'images/care.png' %}">
-	    	<p>亲、您的购物车还是空空的哦，快去装满它!</p>
-	    	<a href="index.html" class="goshopping">前去逛逛</a>
-	    </div>
-	    <ul class="shopcart-list">
+    <header data-am-widget="header" class="am-header am-header-default sq-head ">
+        <div class="am-header-left am-header-nav">
+            <a href="javascript:history.back()" class="">
+                <i class="am-icon-chevron-left"></i>
+            </a>
+        </div>
+        <h1 class="am-header-title">
+            <a href="" class="">购物车</a>
+        </h1>
+    </header>
+    <div style="height: 49px;"></div>
+    <!--购物车空的状态-->
+    <div class="login-logo" style="display: {% if goodssku %}
+        none
+    {% else %}
+        block
+    {% endif %}">
+        <img src="{% static 'images/care.png' %}">
+        <p>亲、您的购物车还是空空的哦，快去装满它!</p>
+        <a href="index.html" class="goshopping">前去逛逛</a>
+    </div>
+    <ul class="shopcart-list">
         {% for goods in goodssku %}
-        <li>
-	    		<label class="am-checkbox am-warning">
-                 <input type="checkbox" checked="checked" value="" data-am-ucheck checked>
+            <li>
+                <label class="am-checkbox am-warning">
+                    <input type="checkbox" checked="checked" value="" data-am-ucheck checked>
                 </label>
-                <a href="{% url 'sp_goods:详情' goods.pk %}"><img src="{{ MEDIA_URL }}{{ goods.logo }}" class="shop-pic" /></a>
+                <a href="{% url 'sp_goods:详情' goods.pk %}"><img src="{{ MEDIA_URL }}{{ goods.logo }}" class="shop-pic"/></a>
                 <div class="shop-list-mid">
-                	<div class="tit"><a href="{% url 'sp_goods:详情' goods.pk %}">
+                    <div class="tit"><a href="{% url 'sp_goods:详情' goods.pk %}">
                         {{ goods.goods_spu.spu_name }}&emsp;{{ goods.sku_name }} 包邮</a></div>
-                	<b class="shop-list-price">￥{{ goods.price }} </b>
+                    <b class="shop-list-price">￥<span class="price">{{ goods.price }}</span> </b>
                 </div>
                 <div class="list-cart1">
-	                <div class="d-stock">
-			                <a class="decrease">-</a>
-			                <input id="num" readonly="" class="text_box" name="" type="text" value="1">
-			                <a class="increase">+</a>
-	                </div>
+                    <div class="d-stock">
+                        <a class="decrease">-</a>
+                        <input readonly=""  sku_id = "{{ goods.pk }}" class="text_box num" name="" type="text" value="{{ goods.count }}">
+                        <a class="increase">+</a>
+                    </div>
                 </div>
 
-	    	</li>
+            </li>
         {% endfor %}
 
 
-	    	<div style="height: 10px; background: #eee;"></div>
-	    </ul>
+        <div style="height: 10px; background: #eee;"></div>
+    </ul>
 
-	    <div class="shop-fix">
+    <div class="shop-fix">
 
-	    	<label class="am-checkbox am-warning">
-               <input type="checkbox" checked="checked" value="" data-am-ucheck checked>
-            </label>
-            <a class="del">全选</a>
-            <a href="tureorder.html" class="js-btn">去结算</a>
-            <div class="js-text">
-            	<P>合计：<b>￥<span></span></b></P>
-            	<p class="js-car">免费配送</p>
-            </div>
-	    </div>
+        <label class="am-checkbox am-warning">
+            <input type="checkbox" checked="checked" value="" data-am-ucheck checked>
+        </label>
+        <a class="del">全选</a>
+        <a href="tureorder.html" class="js-btn">去结算</a>
+        <div class="js-text">
+            <P>合计：￥<b id="sum">00.00</b></P>
+            <p class="js-car">免费配送</p>
+        </div>
+    </div>
 
-<!--底部-->
- <div style="height: 55px;"></div>
- <div data-am-widget="navbar" class="am-navbar am-cf am-navbar-default sq-foot am-no-layout" id="">
-      <ul class="am-navbar-nav am-cf am-avg-sm-5">
-          <li>
-            <a href="index.html" class="">
-                <span class="am-icon-home"></span>
-                <span class="am-navbar-label">首页</span>
-            </a>
-          </li>
-          <li>
-            <a href="message.html" class="">
-                <span class="am-icon-comments"></span>
-                <span class="am-navbar-label">动态</span>
-            </a>
-          </li>
-          <li>
-            <a href="shopcart.html" class="">
-                <span class="am-icon-shopping-cart"></span>
-                <span class="am-navbar-label">购物车</span>
-            </a>
-          </li>
-          <li>
-            <a href="allorder.html" class="">
-                <span class="am-icon-file-text"></span>
-                <span class="am-navbar-label">订单</span>
-            </a>
-          </li>
+    <!--底部-->
+    <div style="height: 55px;"></div>
+    <div data-am-widget="navbar" class="am-navbar am-cf am-navbar-default sq-foot am-no-layout" id="">
+        <ul class="am-navbar-nav am-cf am-avg-sm-5">
+            <li>
+                <a href="{% url 'sp_goods:首页' %}" class="">
+                    <span class="am-icon-home"></span>
+                    <span class="am-navbar-label">首页</span>
+                </a>
+            </li>
+            <li>
+                <a href="message.html" class="">
+                    <span class="am-icon-comments"></span>
+                    <span class="am-navbar-label">动态</span>
+                </a>
+            </li>
+            <li>
+                <a href="shopcart.html" class="">
+                    <span class="am-icon-shopping-cart"></span>
+                    <span class="am-navbar-label">购物车</span>
+                </a>
+            </li>
+            <li>
+                <a href="allorder.html" class="">
+                    <span class="am-icon-file-text"></span>
+                    <span class="am-navbar-label">订单</span>
+                </a>
+            </li>
 
-          <li>
-            <a href="member.html" class="curr">
-                <span class="am-icon-user"></span>
-                <span class="am-navbar-label">我的</span>
-            </a>
-          </li>
-      </ul>
-</div>
+            <li>
+                <a href="{% url 'sp_user:member' %}" class="curr">
+                    <span class="am-icon-user"></span>
+                    <span class="am-navbar-label">我的</span>
+                </a>
+            </li>
+        </ul>
+    </div>
 {% endblock %}
 
 {% block footer_js %}
-<script>
-	//购物数量加减
-	$(function(){
-		$('.increase').click(function(){
-			var self = $(this);
-			var current_num = parseInt(self.siblings('input').val());
-			current_num += 1;
-			self.siblings('input').val(current_num);
-		})
-		$('.decrease').click(function(){
-			var self = $(this);
-			var current_num = parseInt(self.siblings('input').val());
-			if(current_num > 1){
-				current_num -= 1;
-				self.siblings('input').val(current_num);
-			}
-		})
-        function totalprice() {
-            console.debug(111)
-        }
-        totalprice()
-	})
-</script>
+    <script>
+        //购物数量加减
+        $(function () {
+            $('.increase').click(function () {
+                var self = $(this);
+                var current_num = parseInt(self.siblings('input').val());
+                current_num += 1;
+                self.siblings('input').val(current_num);
+                var sku_id = self.siblings('input').attr('sku_id');
+                $.ajax({
+                    type: 'post',
+                    url: '{% url "sp_cart:addCart" %}',
+                    data: {
+                        "count": 1,
+                        "sku_id": sku_id,
+                        "csrfmiddlewaretoken": "{{ csrf_token }}",
+                    },
+                    dataType: "json",
+                    success: function (data) {
+                        if (data.code == 6) {
+                            current_num += 1;
+                            self.siblings('input').val(current_num);
+
+                            //重新计算价格
+                            Sum();
+                        }
+                    }
+                });
+            })
+            $('.decrease').click(function () {
+                var self = $(this);
+                var current_num = parseInt(self.siblings('input').val());
+                if (current_num > 1) {
+                    current_num -= 1;
+                    self.siblings('input').val(current_num);
+                }
+                var sku_id = self.siblings('input').attr('sku_id');
+                $.ajax({
+                    type: 'post',
+                    url: '{% url "sp_cart:addCart" %}',
+                    data: {
+                        "count": -1,
+                        "sku_id": sku_id,
+                        "csrfmiddlewaretoken": "{{ csrf_token }}",
+                    },
+                    dataType: "json",
+                    success: function (data) {
+                        if (data.code == 6) {
+                            if (current_num > 1) {
+                                current_num -= 1;
+                                self.siblings('input').val(current_num);
+                            } else if (current_num == 1) {
+                                //当前li被删除
+                                self.parents('li').remove();
+                                //如果所有的li都被删除了, 购物车就要显示出来
+                                if ($(".shopcart-list").find('li').length == 0) {
+                                    //购物车显示出来
+                                    $(".cart_logo").show();
+                                }
+                            }
+
+                            //重新计算价格
+                            Sum();
+                        }
+                    }
+                });
+            })
+
+            function Sum() {
+                var checkeds = $(".shopcart-list").find(":checked")
+                var total_price = 0;
+                var total_count = 0;
+                var sum = 0;
+                $.each(checkeds, function (i, e) {
+                    {#console.debug(i,e)#}
+                    var li = $(e).parents("li");
+                    {#console.debug(li);#}
+                    total_price = li.find(".price").text();
+                    total_count = li.find('.num').val();
+                    {#console.debug((total_price,total_count))#}
+                    sum += total_count * total_price
+                });
+                $('#sum').text(sum.toFixed(2));
+
+            }
+
+            Sum()
+        })
+    </script>
 {% endblock %}

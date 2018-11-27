@@ -1,0 +1,52 @@
+{% extends 'public/base.html' %}
+{% load static %}
+{% block head_js %}
+    <script src="{% static 'js/area.js' %}"></script>
+    <link href="http://static.h-ui.net/h-ui/css/H-ui.min.css" rel="stylesheet" type="text/css" />
+
+    <style type="text/css">
+html,body{height:auto;}
+#province select{margin-left:10px; width:100px}
+</style>
+{% endblock %}
+
+{% block body %}
+		<header data-am-widget="header" class="am-header am-header-default sq-head ">
+			<div class="am-header-left am-header-nav">
+				<a href="javascript:history.back()" class="">
+					<i class="am-icon-chevron-left"></i>
+				</a>
+			</div>
+			<h1 class="am-header-title">
+  	            <a href="" class="">新增收货地址</a>
+            </h1>
+	    </header>
+	    <div style="height: 60px;"></div>
+	    <ul class="address">
+                        <div id="province"></div>
+	    	<li><input type="text" class="add-input" placeholder="你在哪"  /></li>
+	    	<li><input type="text" class="add-input" placeholder="收货人" /></li>
+	    	<li><input type="text" class="add-input" placeholder="请输入手机号码" /></li>
+	    </ul>
+	    <div class="moren">
+	    	<label class="am-checkbox am-warning">
+                 <input type="checkbox" checked="checked" value="" data-am-ucheck checked>设为默认
+            </label>
+
+	    </div>
+	    <input type="button" class="login-btn" value="确认提交">
+{% endblock %}
+
+{% block footer_js %}
+<script type="text/javascript" src="{% static 'js/jquery.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'jquery.provincesCity.js' %}"></script>
+<script type="text/javascript" src="{% static 'provincesData.js' %}"></script>
+<script type="text/javascript">
+/*调用插件*/
+$(function(){
+	$("#province").ProvinceCity();
+});
+</script>
+{% endblock %}
+
+

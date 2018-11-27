@@ -159,11 +159,14 @@ def send_msg_phone(request):
         # 发送短信
         print(random_code)
 
-        #使用阿里发送短信
-        # __business_id = uuid.uuid1()
-        # params = "{\"code\":\"%s\",\"product\":\"云通信\"}" %random_code
-        # print(send_sms(__business_id, "18384821352", "注册验证", "SMS_2245271", params))
+        # 使用阿里发送短信
+        __business_id = uuid.uuid1()
+        params = "{\"code\":\"%s\",\"product\":\"云通信\"}" %random_code
+        print(send_sms(__business_id, phone, "注册验证", "SMS_2245271", params))
 
         return JsonResponse({'err': 0})
     else:
         return JsonResponse({'err': 1, 'errmsg': '请求方式错误!'})
+
+
+

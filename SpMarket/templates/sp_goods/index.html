@@ -4,19 +4,19 @@
 {% block body %}
 		<header data-am-widget="header" class="am-header am-header-default sq-head1">
 			<div class="am-header-left am-header-nav">
-		        <a href="city.html" class="" style="color: #fff;">
+		        <a href="" class="" style="color: #fff;">
 			        <img src="{% static 'images/city.png' %}" />
-			        <p style="font-size: 12px; margin-top: -35px;">南昌</p>
+			        <p style="font-size: 12px; margin-top: -35px;">四川</p>
 			    </a>
 		   </div>
 			<h1 class="am-header-title1">
 		        <div class="search-box">
-		           <a href="village.html" class="index-search">南昌大学前湖校区∨</a>
+		           <a href="" class="index-search">南昌大学前湖校区∨</a>
 		         <!--  <input type="submit" value="" class="search-icon" /> -->
 		        </div>
 		    </h1>
 			<div class="am-header-right am-header-nav">
-			    <a href="tidings.html" class="">
+			    <a href="" class="">
 		         <div class="messgae"><span>10</span></div>
 		        </a>
 			</div>
@@ -34,7 +34,7 @@
  <ul class="sq-nav">
       <li>
         <div class="am-gallery-item">
-            <a href="recharge.html" class="">
+            <a href="" class="">
               <img src="{% static 'images/icon.png' %}" />
               <p>充值</p>
             </a>
@@ -50,7 +50,7 @@
       </li>
       <li>
         <div class="am-gallery-item">
-            <a href="yhq.html" class="">
+            <a href="" class="">
               <img src="{% static 'images/icon2.png' %}" />
               <p>红包</p>
             </a>
@@ -144,32 +144,32 @@
  <div data-am-widget="navbar" class="am-navbar am-cf am-navbar-default sq-foot am-no-layout" id="">
       <ul class="am-navbar-nav am-cf am-avg-sm-5">
           <li>
-            <a href="index.html" class="curr">
+            <a href="{% url 'sp_goods:首页' %}" class="curr">
                 <span class="am-icon-home"></span>
                 <span class="am-navbar-label">首页</span>
             </a>
           </li>
           <li>
-            <a href="message.html" class="">
+            <a href="" class="">
                 <span class="am-icon-comments"></span>
                 <span class="am-navbar-label">动态</span>
             </a>
           </li>
           <li>
-            <a href="shopcart.html" class="">
+            <a href="{% url 'sp_cart:CartShow' %}" class="">
                 <span class="am-icon-shopping-cart"></span>
                 <span class="am-navbar-label">购物车</span>
             </a>
           </li>
           <li>
-            <a href="allorder.html" class="">
+            <a href="" class="">
                 <span class="am-icon-file-text"></span>
                 <span class="am-navbar-label">订单</span>
             </a>
           </li>
 
           <li>
-            <a href="member.html" class="">
+            <a href="{% url 'sp_user:member' %}" class="">
                 <span class="am-icon-user"></span>
                 <span class="am-navbar-label">我的</span>
             </a>
